@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # water_counter_app
 
 A new Flutter project.
@@ -17,4 +16,4 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 =======
 # Clone-HiWater
->>>>>>> 088e747b09b4fdf59a418c292538e04f355cacd3
+
