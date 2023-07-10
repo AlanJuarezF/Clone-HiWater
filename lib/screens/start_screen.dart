@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:water_counter_app/assets/interval_progress_bar.dart';
 
 class StartScreen extends StatefulWidget {
   const StartScreen({super.key});
@@ -98,11 +99,25 @@ class _StartScreenState extends State<StartScreen> {
   }
 
   Widget _hydration() {
-    return Text(
-      '1.0',
-      style: Theme.of(context).textTheme.headlineSmall,
+    return Column(
+      children: [
+        const IntervalProgressBar(),
+
+        //_intervalBar(),
+        Text(
+          'Hidratación',
+          style: Theme.of(context).textTheme.bodySmall,
+        ),
+      ],
     );
   }
+
+  // Widget _intervalBar() {
+  //   return Text(
+  //     '1.0',
+  //     style: Theme.of(context).textTheme.headlineSmall,
+  //   );
+  // }
 
   Widget _buttonReg() {
     return Center(
